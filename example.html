@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagram Sistem Berjalan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .column {
+            border: 2px solid black;
+            padding: 20px;
+            background-color: white;
+        }
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            background-color: lightgray;
+        }
+        .line {
+            width: 100%;
+            height: 2px;
+            background-color: black;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h3>Admin</h3>
+            <div class="box">Menginput Dosen</div>
+            <div class="line"></div>
+            <div class="box">Menginput Mata Kuliah</div>
+        </div>
+        
+        <div class="column">
+            <h3>Mahasiswa</h3>
+            <div class="box">Menginput Nilai Mata Kuliah</div>
+            <div class="box">Download Rangkuman Nilai</div>
+            <div class="box">Form Pendaftaran</div>
+            <div class="box">Mengisi Tes Wawancara</div>
+            <div class="box">Mengisi Tes Kompetensi</div>
+            <div class="box">Submit</div>
+            <div class="box">Status Pendaftaran</div>
+        </div>
+        
+        <div class="column">
+            <h3>Koordinator Dosen</h3>
+            <div class="box">Perhitungan Metode Seleksi</div>
+            <div class="box">Perhitungan Topsis</div>
+            <div class="box">Perhitungan Profile Matching</div>
+            <div class="box">Kombinasi Kedua Metode</div>
+            <div class="box">Hasil Perhitungan</div>
+            <div class="box">Update Status Seleksi</div>
+        </div>
+        
+        <div class="column">
+            <h3>Dosen</h3>
+            <div class="box">Dosen Pengampu Mata Kuliah</div>
+            <div class="box">Memberikan Nilai Standarisasi</div>
+            <div class="box">Asisten Dosen Terpilih</div>
+            <div class="box">Rangkuman Nilai Mahasiswa</div>
+        </div>
+    </div>
+</body>
+</html>
